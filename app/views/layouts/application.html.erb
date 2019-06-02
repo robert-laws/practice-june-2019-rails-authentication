@@ -10,6 +10,18 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= render partial: "layouts/navigation" %>
+    </header>
+
+    <main>
+      <%= yield %>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>footer content</p>
+      </div>
+    </footer>
   </body>
 </html>

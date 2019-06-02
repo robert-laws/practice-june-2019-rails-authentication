@@ -27,6 +27,15 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Auto-prefixer
+gem 'autoprefixer-rails'
+
+# Bootsrap CSS Framework
+gem 'bootstrap', '~> 4.3.1'
+
+# JQuery for Rails
+gem 'jquery-rails'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
