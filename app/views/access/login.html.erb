@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col">
+      <h3>Login</h3>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <hr>
+    </div>
+  </div>
+
+  <div class="row mt-3">
+    <div class="col">
+      <%= form_tag(access_login_attempt_path, method: :post) do %>
+        <div class="form-group">
+          <%= label_tag :username %>
+          <%= text_field_tag :username, params[:username], class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= label_tag :password %>
+          <%= password_field_tag :password, params[:password], class: "form-control" %>
+        </div>
+        <div class="form-group">
+          <%= submit_tag "Logon", class: "btn btn-primary" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <hr>
+    </div>
+  </div>
+</div>

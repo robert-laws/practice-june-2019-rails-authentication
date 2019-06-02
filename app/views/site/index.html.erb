@@ -2,9 +2,7 @@
   <div class="row mt-2">
     <div class="col">
       <h3>Site Page</h3>
-      <% if logged_in? %>
-        <p>Welcome, <%= current_user.capitalize %></p>
-      <% end %>
+      <%= @welcome %>
     </div>
   </div>
 </div>
